@@ -39,6 +39,6 @@ Cocoapods is available under the MIT license. See the LICENSE file for more info
 3. run following command and fix all the errors and warnings 
     pod lib lint
     
-4. pod trunk register your-email 'your-name' --description='your-machine'
+4.pod trunk register your-email 'your-name' --description='your-machine'
 
 5. pod trunk push 'your-pod-name'.podspec  

@@ -3,7 +3,10 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'Cocoapods_Example' do
+#  pod 'First-Cocoapods'
   pod 'First-Cocoapods', :path => '../'
+#  pod 'SDWebImage'
+#  pod 'AFNetworking'
 
   target 'Cocoapods_Tests' do
     inherit! :search_paths

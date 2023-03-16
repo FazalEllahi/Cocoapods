@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'First-Cocoapods'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A Demonstration on how to create a Cocoapods.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,15 @@ A sample project to explain that how can we create a cocoapods.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'First-Cocoapods/Classes/**/*'
+  
+  s.subspec 'Reachability' do |sp|
+      sp.source_files = 'First-Cocoapods/Reachability'
+    end
+  
+#  s.subspec 'First-Cocoapods/Reachability' do |ss|
+#      ss.source_files = 'First-Cocoapods/Reachability/Reachability.{h,m}'
+#      
+#  end
   
   # s.resource_bundles = {
   #   'Cocoapods' => ['Cocoapods/Assets/*.png']

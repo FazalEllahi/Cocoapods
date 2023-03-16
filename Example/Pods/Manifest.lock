@@ -1,5 +1,7 @@
 PODS:
-  - First-Cocoapods (0.1.1)
+  - First-Cocoapods (0.1.1):
+    - First-Cocoapods/Reachability (= 0.1.1)
+  - First-Cocoapods/Reachability (0.1.1)
 
 DEPENDENCIES:
   - First-Cocoapods (from `../`)
@@ -9,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  First-Cocoapods: feed390c4bc652e07ce3736df4b4ebaea64a4457
+  First-Cocoapods: f86cef63347399e1ecb2b6f1a9905156dfcdb265
 
-PODFILE CHECKSUM: af77a47b4f96603ebd5b764001fd227c0ba83d59
+PODFILE CHECKSUM: bb7f952b5390029503792c413dccfa04427fa71d
 
 COCOAPODS: 1.11.3

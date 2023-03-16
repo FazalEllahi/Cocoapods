@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Cocoapods
+## First-Cocoapods
 
 Copyright (c) 2023 fazal-theentertainerme <fazal.e@theentertainerasia.com>
 
